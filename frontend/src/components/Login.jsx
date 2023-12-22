@@ -63,6 +63,14 @@ const Login = () => {
           >
             Login
           </Button>
+
+          <Button
+            variant="contained"
+            onClick={ ()=> window.location.assign("/register")}
+            sx={{ mt: 2, width: "100%" }}
+          >
+            SignUp
+          </Button>
         </Box>
       </Box>
     </Container>
